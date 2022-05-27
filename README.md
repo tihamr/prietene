@@ -1,2 +1,2 @@
-# prietene
+# Pretene
 Chat bot pentru joc.
