@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Plan B-ot</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link href="src/flowchat.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="src/flowchat.js"></script>
+  </head>
+  <body>
+<div class="container" id="flowchat"><button id="startButton"></button></div>
+  <script>
+    $(function() {
+      $.getJSON( "src/conversatie.json", function( dataJSON ) {
+        $('#flowchat').flowchat({
+          dataJSON: dataJSON,
+          autoStart: true
+        });
+      });
+    });
+  </script>
+  </body>
+</html>

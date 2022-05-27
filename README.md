@@ -1,2 +1,2 @@
-# Pretene
-Chat bot pentru joc.
+# planb
+Un joc introductiv.
