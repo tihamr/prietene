@@ -1,2 +1,0 @@
-# planb
-Un joc introductiv.
